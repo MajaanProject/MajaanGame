@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Temp\\Compiled-Standard.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Temp\\Compiled-Standard.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\SUIMONO - WATER SYSTEM 2\\_DEMO\\GUI\\guiFPS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SUIMONO - WATER SYSTEM 2\\_DEMO\\GUI\\guiFPS.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\MegaWorld\\AdvancedBrushTool\\ScriptsEditor\\AdvancedBrushTool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\VladislavTsurikov\\MegaWorld\\AdvancedBrushTool\\ScriptsEditor\\AdvancedBrushTool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EC58D3-70C8-9D07-5BC2-4BBDF18850C5}|Assembly-CSharp.csproj|C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\assets\\toon deserted temples\\_readfirst.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C9EC58D3-70C8-9D07-5BC2-4BBDF18850C5}|Assembly-CSharp.csproj|solutionrelative:assets\\toon deserted temples\\_readfirst.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\ColliderSystem\\Scripts\\Plugin\\HiddenSceneDataManagerExplorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\VladislavTsurikov\\ColliderSystem\\Scripts\\Plugin\\HiddenSceneDataManagerExplorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\PhysicsSimulatorEditor\\ScriptsEditor\\PhysicsSimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\VladislavTsurikov\\PhysicsSimulatorEditor\\ScriptsEditor\\PhysicsSimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\Timer\\Scripts\\Timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\VladislavTsurikov\\Timer\\Scripts\\Timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\OdinSerializer\\Utilities\\Misc\\EmitUtilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\VladislavTsurikov\\OdinSerializer\\Utilities\\Misc\\EmitUtilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\Environment Pack - Desert Structures\\Documentation_EnvironmentPack_DesertStructures.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Environment Pack - Desert Structures\\Documentation_EnvironmentPack_DesertStructures.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Compiled-Standard.shader",
+              "DocumentMoniker": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Temp\\Compiled-Standard.shader",
+              "RelativeDocumentMoniker": "Temp\\Compiled-Standard.shader",
+              "ToolTip": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Temp\\Compiled-Standard.shader",
+              "RelativeToolTip": "Temp\\Compiled-Standard.shader",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-03-06T17:57:59.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "guiFPS.cs",
+              "DocumentMoniker": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\SUIMONO - WATER SYSTEM 2\\_DEMO\\GUI\\guiFPS.cs",
+              "RelativeDocumentMoniker": "Assets\\SUIMONO - WATER SYSTEM 2\\_DEMO\\GUI\\guiFPS.cs",
+              "ToolTip": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\SUIMONO - WATER SYSTEM 2\\_DEMO\\GUI\\guiFPS.cs",
+              "RelativeToolTip": "Assets\\SUIMONO - WATER SYSTEM 2\\_DEMO\\GUI\\guiFPS.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T15:41:02.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Documentation_EnvironmentPack_DesertStructures.txt",
+              "DocumentMoniker": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\Environment Pack - Desert Structures\\Documentation_EnvironmentPack_DesertStructures.txt",
+              "RelativeDocumentMoniker": "Assets\\Environment Pack - Desert Structures\\Documentation_EnvironmentPack_DesertStructures.txt",
+              "ToolTip": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\Environment Pack - Desert Structures\\Documentation_EnvironmentPack_DesertStructures.txt",
+              "RelativeToolTip": "Assets\\Environment Pack - Desert Structures\\Documentation_EnvironmentPack_DesertStructures.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-24T19:10:03.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdvancedBrushTool.cs",
+              "DocumentMoniker": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\MegaWorld\\AdvancedBrushTool\\ScriptsEditor\\AdvancedBrushTool.cs",
+              "RelativeDocumentMoniker": "Assets\\VladislavTsurikov\\MegaWorld\\AdvancedBrushTool\\ScriptsEditor\\AdvancedBrushTool.cs",
+              "ToolTip": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\MegaWorld\\AdvancedBrushTool\\ScriptsEditor\\AdvancedBrushTool.cs",
+              "RelativeToolTip": "Assets\\VladislavTsurikov\\MegaWorld\\AdvancedBrushTool\\ScriptsEditor\\AdvancedBrushTool.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:06:53.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HiddenSceneDataManagerExplorer.cs",
+              "DocumentMoniker": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\ColliderSystem\\Scripts\\Plugin\\HiddenSceneDataManagerExplorer.cs",
+              "RelativeDocumentMoniker": "Assets\\VladislavTsurikov\\ColliderSystem\\Scripts\\Plugin\\HiddenSceneDataManagerExplorer.cs",
+              "ToolTip": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\ColliderSystem\\Scripts\\Plugin\\HiddenSceneDataManagerExplorer.cs",
+              "RelativeToolTip": "Assets\\VladislavTsurikov\\ColliderSystem\\Scripts\\Plugin\\HiddenSceneDataManagerExplorer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:06:24.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhysicsSimulator.cs",
+              "DocumentMoniker": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\PhysicsSimulatorEditor\\ScriptsEditor\\PhysicsSimulator.cs",
+              "RelativeDocumentMoniker": "Assets\\VladislavTsurikov\\PhysicsSimulatorEditor\\ScriptsEditor\\PhysicsSimulator.cs",
+              "ToolTip": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\PhysicsSimulatorEditor\\ScriptsEditor\\PhysicsSimulator.cs",
+              "RelativeToolTip": "Assets\\VladislavTsurikov\\PhysicsSimulatorEditor\\ScriptsEditor\\PhysicsSimulator.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwC4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:06:06.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\Timer\\Scripts\\Timer.cs",
+              "RelativeDocumentMoniker": "Assets\\VladislavTsurikov\\Timer\\Scripts\\Timer.cs",
+              "ToolTip": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\Timer\\Scripts\\Timer.cs",
+              "RelativeToolTip": "Assets\\VladislavTsurikov\\Timer\\Scripts\\Timer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwEwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:04:59.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmitUtilities.cs",
+              "DocumentMoniker": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\OdinSerializer\\Utilities\\Misc\\EmitUtilities.cs",
+              "RelativeDocumentMoniker": "Assets\\VladislavTsurikov\\OdinSerializer\\Utilities\\Misc\\EmitUtilities.cs",
+              "ToolTip": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\VladislavTsurikov\\OdinSerializer\\Utilities\\Misc\\EmitUtilities.cs",
+              "RelativeToolTip": "Assets\\VladislavTsurikov\\OdinSerializer\\Utilities\\Misc\\EmitUtilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAACpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T18:59:12.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TerrainLit.shader",
+              "DocumentMoniker": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "ToolTip": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal\\Shaders\\Terrain\\TerrainLit.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-02-22T00:25:51.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ReadFirst.txt",
+              "DocumentMoniker": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\Toon Deserted Temples\\_ReadFirst.txt",
+              "RelativeDocumentMoniker": "Assets\\Toon Deserted Temples\\_ReadFirst.txt",
+              "ToolTip": "C:\\Users\\Makenzi\\OneDrive\\Coding\\Interactive Program Design\\MajaanGame\\Assets\\Toon Deserted Temples\\_ReadFirst.txt",
+              "RelativeToolTip": "Assets\\Toon Deserted Temples\\_ReadFirst.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-20T13:50:31.62Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

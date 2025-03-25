@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cb3dc86aae1c38e4897aa6bb9e4e50a8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309826
+  packageName: STYLIZED Desert Kingdom
+  packageVersion: 1.0
+  assetPath: Assets/STYLIZED Desert Kingdom/Prefabs/Traps/Anim/Rotator.controller
+  uploadId: 735744
