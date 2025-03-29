@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "MajaanGame.sln"
+    "dotnet.defaultSolution": "MajaanGame.sln",
+    "git.ignoreLimitWarning": true
 }

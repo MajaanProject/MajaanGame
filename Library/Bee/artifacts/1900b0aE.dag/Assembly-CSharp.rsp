@@ -244,8 +244,6 @@
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
--r:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
--r:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
@@ -376,6 +374,7 @@
 -r:"Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1b53f46e931b/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
@@ -429,12 +428,14 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/CameraController.cs"
 "Assets/GhostCharacter_Free/Scripts/GhostScript.cs"
 "Assets/Matthew Guz/Status Effects and Auras FREE/Scripts/CameraRotation.cs"
 "Assets/Matthew Guz/Status Effects and Auras FREE/Scripts/Prefab Manager.cs"
 "Assets/Mini Simple Characters Skeleton Demo/Readme/Scripts/Readme.cs"
 "Assets/PlayerController.cs"
 "Assets/PlayerMovement.cs"
+"Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
