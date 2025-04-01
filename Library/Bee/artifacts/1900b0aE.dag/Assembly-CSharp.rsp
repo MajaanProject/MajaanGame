@@ -426,10 +426,14 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Additions - Anthony/Scripts/CameraControl.cs"
+"Assets/Additions - Anthony/Scripts/PlayerController.cs"
+"Assets/Additions - Anthony/Scripts/PlayerMovement.cs"
+"Assets/CameraController.cs"
+"Assets/GhostCharacter_Free/Scripts/GhostScript.cs"
 "Assets/Matthew Guz/Status Effects and Auras FREE/Scripts/CameraRotation.cs"
 "Assets/Matthew Guz/Status Effects and Auras FREE/Scripts/Prefab Manager.cs"
-"Assets/PlayerController.cs"
-"Assets/TutorialInfo/Scripts/Readme.cs"
+"Assets/Mini Simple Characters Skeleton Demo/Readme/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
 /optimize+
