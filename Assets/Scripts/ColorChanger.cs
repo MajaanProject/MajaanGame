@@ -29,7 +29,8 @@ public class ColorChanger : MonoBehaviour
         receivingObject = GameObject.Find ("Enemy");
 
         //Send message to receivingObject, telling it to run 'DoStuffNow()'
-        receivingObject.SendMessage ("TurnRed");
+        //receivingObject.SendMessage ("TurnRed");
+        receivingObject.SendMessage("Damage", 1);
     }
 
     public void TurnBlue()
