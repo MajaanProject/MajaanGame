@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,8 +11,8 @@ public class BattleSystem : MonoBehaviour
 	public GameObject playerPrefab;
 	public GameObject enemyPrefab;
 
-	//public Transform playerBattleStation;
-	//public Transform enemyBattleStation;
+	public Transform playerBattleStation;
+	public Transform enemyBattleStation;
 
 	Unit playerUnit;
 	Unit enemyUnit;
@@ -34,10 +33,10 @@ public class BattleSystem : MonoBehaviour
 
 	IEnumerator SetupBattle()
 	{
-		GameObject playerGO = GameObject.Find("Player");
+		GameObject playerGO = Instantiate(playerPrefab, playerBattleStation);
 		playerUnit = playerGO.GetComponent<Unit>();
 
-		GameObject enemyGO = GameObject.Find("Enemy");
+		GameObject enemyGO = Instantiate(enemyPrefab, enemyBattleStation);
 		enemyUnit = enemyGO.GetComponent<Unit>();
 
 		dialogueText.text = "A wild " + enemyUnit.unitName + " approaches...";
@@ -129,6 +128,7 @@ public class BattleSystem : MonoBehaviour
 		if (state != BattleState.PLAYERTURN)
 			return;
 
+		Debug.Log("Attack");
 		StartCoroutine(PlayerAttack());
 	}
 
