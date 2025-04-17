@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -54,6 +54,7 @@ public class BattleSystem : MonoBehaviour
 	{
 		bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
+		state = BattleState.ENEMYTURN;
 		enemyHUD.SetHP(enemyUnit.currentHP);
 		dialogueText.text = "The attack is successful!";
 
@@ -65,8 +66,27 @@ public class BattleSystem : MonoBehaviour
 			EndBattle();
 		} else
 		{
-			state = BattleState.ENEMYTURN;
 			StartCoroutine(EnemyTurn());
+		}
+	}
+
+	IEnumerator ChargedAttack()
+	{
+		bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
+
+		state = BattleState.ENEMYTURN;
+		
+		dialogueText.text = "You carefully aim your next shot...";
+
+		yield return new WaitForSeconds(2f);
+
+		if(isDead)
+		{
+			state = BattleState.WON;
+			EndBattle();
+		} else
+		{
+			StartCoroutine(EnemyChargedTurn());
 		}
 	}
 
@@ -92,6 +112,49 @@ public class BattleSystem : MonoBehaviour
 			PlayerTurn();
 		}
 
+	}
+
+	IEnumerator EnemyChargedTurn()
+	{
+		dialogueText.text = enemyUnit.unitName + " attacks!";
+
+		yield return new WaitForSeconds(1f);
+
+		bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
+
+		playerHUD.SetHP(playerUnit.currentHP);
+
+		yield return new WaitForSeconds(1f);
+
+		if(isDead)
+		{
+			state = BattleState.LOST;
+			EndBattle();
+		} else
+		{
+			StartCoroutine(PlayerReleaseAttack());
+		}
+
+	}
+
+	IEnumerator PlayerReleaseAttack()
+	{
+		bool isDead = enemyUnit.TakeDamage(playerUnit.damage * 3);
+
+		state = BattleState.ENEMYTURN;
+		enemyHUD.SetHP(enemyUnit.currentHP);
+		dialogueText.text = "You loose your arrow with pinpoint accuracy!";
+
+		yield return new WaitForSeconds(2f);
+
+		if(isDead)
+		{
+			state = BattleState.WON;
+			EndBattle();
+		} else
+		{
+			StartCoroutine(EnemyTurn());
+		}
 	}
 
 	void EndBattle()
@@ -128,8 +191,15 @@ public class BattleSystem : MonoBehaviour
 		if (state != BattleState.PLAYERTURN)
 			return;
 
-		Debug.Log("Attack");
 		StartCoroutine(PlayerAttack());
+	}
+
+	public void OnChargeButton()
+	{
+		if (state != BattleState.PLAYERTURN)
+			return;
+
+		StartCoroutine(ChargedAttack());
 	}
 
 	public void OnHealButton()
