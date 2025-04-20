@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 
@@ -23,6 +24,8 @@ public class BattleSystem : MonoBehaviour
 	public BattleHUD enemyHUD;
 
 	public BattleState state;
+
+	System.Random random = new System.Random();
 
     // Start is called before the first frame update
     void Start()
@@ -92,15 +95,35 @@ public class BattleSystem : MonoBehaviour
 
 	IEnumerator EnemyTurn()
 	{
-		dialogueText.text = enemyUnit.unitName + " attacks!";
+		bool isDead;
 
-		yield return new WaitForSeconds(1f);
+		int roll = random.Next(100);
 
-		bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
+		if (roll >= 75)
+		{
+			dialogueText.text = enemyUnit.unitName + " attacks!";
 
-		playerHUD.SetHP(playerUnit.currentHP);
+			yield return new WaitForSeconds(1f);
 
-		yield return new WaitForSeconds(1f);
+			dialogueText.text = "Critical hit!";
+
+			yield return new WaitForSeconds(1f);
+
+			isDead = playerUnit.TakeDamage(enemyUnit.damage * 3);
+
+			playerHUD.SetHP(playerUnit.currentHP);
+		} else
+		{
+			dialogueText.text = enemyUnit.unitName + " attacks!";
+
+			yield return new WaitForSeconds(1f);
+
+			isDead = playerUnit.TakeDamage(enemyUnit.damage);
+
+			playerHUD.SetHP(playerUnit.currentHP);
+
+			yield return new WaitForSeconds(1f);
+		}
 
 		if(isDead)
 		{
@@ -158,15 +181,26 @@ public class BattleSystem : MonoBehaviour
 	}
 
 	void EndBattle()
+{
+	StartCoroutine(HandleEndBattle());
+}
+
+IEnumerator HandleEndBattle()
+{
+	if (state == BattleState.WON)
 	{
-		if(state == BattleState.WON)
-		{
-			dialogueText.text = "You won the battle!";
-		} else if (state == BattleState.LOST)
-		{
-			dialogueText.text = "You were defeated.";
-		}
+		dialogueText.text = "You won the battle!";
+		yield return new WaitForSeconds(2f);
+		SceneManager.LoadScene("WorldBuilding");
 	}
+	else if (state == BattleState.LOST)
+	{
+		dialogueText.text = "You were defeated.";
+		yield return new WaitForSeconds(2f);
+		SceneManager.LoadScene("WorldBuilding");
+	}
+}
+
 
 	void PlayerTurn()
 	{

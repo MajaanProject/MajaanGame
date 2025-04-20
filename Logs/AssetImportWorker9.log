@@ -1,0 +1,372 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.41f1 (46e447368a18) revision 4645959'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 7551 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/jayal/OneDrive/Documents/GitHub/MajaanGame
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+49676
+-job-worker-count
+8
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/jayal/OneDrive/Documents/GitHub/MajaanGame
+C:/Users/jayal/OneDrive/Documents/GitHub/MajaanGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10044]  Target information:
+
+Player connection [10044]  * "[IP] 10.0.0.131 [Port] 0 [Flags] 2 [Guid] 346321922 [EditorId] 346321922 [Version] 1048832 [Id] WindowsEditor(7,JayAllenLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10044] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10044] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 8
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 11.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.41f1 (46e447368a18)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jayal/OneDrive/Documents/GitHub/MajaanGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Graphics (ID=0x7dd5)
+    Vendor:   Intel
+    VRAM:     4304 MB
+    Driver:   32.0.101.6314
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008712 seconds.
+- Loaded All Assemblies, in  1.202 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.998 seconds
+Domain Reload Profiling: 2198ms
+	BeginReloadAssembly (527ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (137ms)
+	LoadAllAssembliesAndSetupDomain (403ms)
+		LoadAssemblies (515ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (394ms)
+			TypeCache.Refresh (390ms)
+				TypeCache.ScanAssembly (325ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1000ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (757ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.874 seconds
+Refreshing native plugins compatible for Editor in 10.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.104 seconds
+Domain Reload Profiling: 8982ms
+	BeginReloadAssembly (450ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (2250ms)
+		LoadAssemblies (1714ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (823ms)
+			TypeCache.Refresh (456ms)
+				TypeCache.ScanAssembly (407ms)
+			BuildScriptInfoCaches (270ms)
+			ResolveRequiredComponents (89ms)
+	FinalizeReload (6113ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4185ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (389ms)
+			ProcessInitializeOnLoadAttributes (2281ms)
+			ProcessInitializeOnLoadMethodAttributes (1474ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 15.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 261 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6138 unused Assets / (7.4 MB). Loaded Objects now: 6885.
+Memory consumption went from 223.3 MB to 215.9 MB.
+Total: 32.816900 ms (FindLiveObjects: 4.302700 ms CreateObjectMapping: 0.563500 ms MarkObjects: 19.367400 ms  DeleteObjects: 8.078200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 455300.872789 seconds.
+  path: Assets/STYLIZED Desert Kingdom/Materials/Materials/M_skybox_day.mat
+  artifactKey: Guid(cbc236c79d7e20741a14eae65284e96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STYLIZED Desert Kingdom/Materials/Materials/M_skybox_day.mat using Guid(cbc236c79d7e20741a14eae65284e96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b25194953d9dfb3b74bbaa3bb277d419') in 10.4874654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.808019 seconds.
+  path: Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Wand/Wand_Textures/Wand_Basic.mat
+  artifactKey: Guid(b1a5ec2156775cb45a88adcc2c6c5335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Wand/Wand_Textures/Wand_Basic.mat using Guid(b1a5ec2156775cb45a88adcc2c6c5335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fe5b41b8114f905ad0493a11d2c6a79') in 1.8372222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001099 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '356fd7eeb9b3810abc78f85b9b00de34') in 0.1044136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Spears/Spear1h.fbx
+  artifactKey: Guid(df3f07283842c864abb844da441c0bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Spears/Spear1h.fbx using Guid(df3f07283842c864abb844da441c0bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39c4d2042bd0cecc908f0c6ffe86c895') in 1.0860568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Toon Deserted Temples/Particles/Materials/TFD_Fog_01D.mat
+  artifactKey: Guid(56d1efdaf8244514dae3b0801d0eecdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Particles/Materials/TFD_Fog_01D.mat using Guid(56d1efdaf8244514dae3b0801d0eecdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c47136eaffbc63850332b9e6e2369d4') in 0.4637272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Toon Deserted Temples/Particles/Materials/TFD_Sun_Shaft_01A.mat
+  artifactKey: Guid(ca7ae9398803c5e4bb277f8a6c11824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Particles/Materials/TFD_Sun_Shaft_01A.mat using Guid(ca7ae9398803c5e4bb277f8a6c11824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8671d185ad43a93ade08a6d27e95f067') in 0.6454352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Toon Deserted Temples/Models/Materials/TFD_Atlas_Cloth_1A.mat
+  artifactKey: Guid(0c96fc059eedf294c9c6033759221f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Models/Materials/TFD_Atlas_Cloth_1A.mat using Guid(0c96fc059eedf294c9c6033759221f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86058d6c64d2815862b5e37f39b797b1') in 1.2782199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Spears/Spear_1H_Textures/Spear1H_Epic2.mat
+  artifactKey: Guid(69c9fd2d60493ee448e90dd335fcac85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Spears/Spear_1H_Textures/Spear1H_Epic2.mat using Guid(69c9fd2d60493ee448e90dd335fcac85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b660e38a8d75be0f3ccd345c3f85881c') in 0.5719267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Spears/Spear_2H_Textures/Spear2H_Medium.mat
+  artifactKey: Guid(1f1b49656aa71394f97d210ab47e9b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/LowPoly/FreeRPGWeapons/Spears/Spear_2H_Textures/Spear2H_Medium.mat using Guid(1f1b49656aa71394f97d210ab47e9b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2423258027965406001c613e63432aef') in 0.2073021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset
+  artifactKey: Guid(c9adb1f542a93ae489bacfeae21e8394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF.asset using Guid(c9adb1f542a93ae489bacfeae21e8394) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7970334fe3fe6b7092447fc480f74b69') in 1.0653505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Toon Deserted Temples/Particles/Materials/TFD_Foam_02A.mat
+  artifactKey: Guid(d5e7f18871085b145883b970b2a5dfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Particles/Materials/TFD_Foam_02A.mat using Guid(d5e7f18871085b145883b970b2a5dfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '972537232e7c384f86fcd46396e26a65') in 0.2515881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Toon Deserted Temples/Particles/Materials/TFD_Dust_01A.mat
+  artifactKey: Guid(3f2fc3d11b033db43be209e09d0b5010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Particles/Materials/TFD_Dust_01A.mat using Guid(3f2fc3d11b033db43be209e09d0b5010) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b8ad932fab128cebfe8e429f76d31c4') in 0.1214809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '565658490f9bc326643ddebe3e9fe5be') in 0.4774534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Toon Deserted Temples/Particles/Materials/TFD_Portal_01A.mat
+  artifactKey: Guid(3a8ac512e81a6fc4ebe947d632dada84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Particles/Materials/TFD_Portal_01A.mat using Guid(3a8ac512e81a6fc4ebe947d632dada84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b38a0da9d730512a9b9ecab9f800dedd') in 0.8681854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Toon Deserted Temples/Models/Materials/TFD_Atlas_Lights_01A.mat
+  artifactKey: Guid(6815c4b6cdfa576468df02fca134d9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Models/Materials/TFD_Atlas_Lights_01A.mat using Guid(6815c4b6cdfa576468df02fca134d9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d327bea6e3b2d081de397b7c29c5e2') in 0.7110238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Toon Deserted Temples/Particles/Materials/TFD_Fog_01C.mat
+  artifactKey: Guid(158e4c3d040c24342b4a4f8881e95718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Particles/Materials/TFD_Fog_01C.mat using Guid(158e4c3d040c24342b4a4f8881e95718) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efb0e3626d29a5dd59ced3866f16d42a') in 0.1595554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Toon Deserted Temples/Particles/Materials/TFD_Fire_Ember_01A.mat
+  artifactKey: Guid(36f9bc029ba424147a1126caa6898640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Particles/Materials/TFD_Fire_Ember_01A.mat using Guid(36f9bc029ba424147a1126caa6898640) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7d852e63e7637f981497b1fc9eaba70') in 0.3321699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Toon Deserted Temples/Particles/Materials/TFD_Fog_01B.mat
+  artifactKey: Guid(9820e3e84fa3b2b47896ce92f6c894bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Particles/Materials/TFD_Fog_01B.mat using Guid(9820e3e84fa3b2b47896ce92f6c894bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5094d468487be2a079fa9f7ac580566f') in 0.1296818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Toon Deserted Temples/Models/Materials/TFD_Atlas_1A.mat
+  artifactKey: Guid(1a15edf1f62610e40ae2547192469b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Models/Materials/TFD_Atlas_1A.mat using Guid(1a15edf1f62610e40ae2547192469b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd6a17edf37bcaab817c854128d9fb1a') in 1.1865453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/Matthew Guz/Status Effects and Auras FREE/Materials/Stun/Trail.mat
+  artifactKey: Guid(878664e417ee6654f876b0caca72c895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Matthew Guz/Status Effects and Auras FREE/Materials/Stun/Trail.mat using Guid(878664e417ee6654f876b0caca72c895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8efdb36c76849e59aad6b2825bf8c3ad') in 0.5425791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001360 seconds.
+  path: Assets/Toon Deserted Temples/Models/Materials/TFD_Atlas_Runes_01A.mat
+  artifactKey: Guid(067f1bfe1f62ea44e9a2eedcc7fd32b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Models/Materials/TFD_Atlas_Runes_01A.mat using Guid(067f1bfe1f62ea44e9a2eedcc7fd32b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd567e6ee6678f12f06ec5f349c8d6a42') in 1.7268163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Toon Deserted Temples/Models/Materials/TFD_Sparks_01A.mat
+  artifactKey: Guid(ffd0a14b6eb610646ae79f59878cf935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Deserted Temples/Models/Materials/TFD_Sparks_01A.mat using Guid(ffd0a14b6eb610646ae79f59878cf935) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '568ee380ba16f8c9abcbbb97ecbb6e1c') in 3.9956189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004296 seconds.
+  path: Assets/STYLIZED Desert Kingdom/Materials/Materials/M_shrub_desert 2.mat
+  artifactKey: Guid(2bd4b3c836db3224ba4bfe73665deb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STYLIZED Desert Kingdom/Materials/Materials/M_shrub_desert 2.mat using Guid(2bd4b3c836db3224ba4bfe73665deb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4da487097b4f7677587313d6c81d825') in 3.1649942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
